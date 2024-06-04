@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://kit.fontawesome.com/2cf070bebd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+
+
+	<!-- 								home							 -->
+
+
+
+
+	<div id="header">
+		<div class="cantainer">
+			<nav>
+				<h1><span>S</span>hubham.</h1>
+				<ul id="sidemenu">
+					<li> <a href="#"> Home</a></li>
+					<li> <a href="#about"> About</a></li>
+					<li> <a href="#services"> Services</a></li>
+					<li> <a href="#portfolio"> Portfolio</a></li>
+					<li> <a href="#contact"> Contact</a></li>
+					<i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+				</ul>
+				<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+			</nav>
+			<div class="header_text">
+				<p>Frontend Developer | App Developer (Android)</p>
+				<h1>Hi, I,m <span>Shubham </span>Gaur <br>from New Delhi, INDIA</h1>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<!-- 								about 							 -->
+
+
+
+
+	<div id="about">
+		<div class="cantainer">
+			<div class="row">
+				<div class="about_col_1">
+					<img src="user.jpg">
+				</div>
+				<div class="about_col_2">
+					<h1 class="sub_title">About me</h1>
+					<br>
+					<p>Hello Guys I am <span>SHUBHAM GAUR</span> currently in the final year of Electrical Engineering branch from Netaji Subhas University of Technology, Delhi. I am a passionate frontend developer and Android App developer, if you like my work do give a shoutout to the given form at the bottom of this page. </p>
+					<div class="tab_titles">
+						<p class="tab_links active_link" onclick="opentab('skills')">Skills</p>
+						<p class="tab_links" onclick="opentab('experience')">Experience</p>
+						<p class="tab_links" onclick="opentab('education')">Education</p>
+					</div>
+					<div class="tab_contents active_tab" id="skills">
+						<ul>
+							<li><span>UI/UX</span><br>Designing Web Interfaces</li>
+							<li><span>Frontend Developer</span><br>Designing frontend of the websites</li>
+							<li><span>App Developer</span><br>Building Android Apps</li>
+						</ul>
+					</div>
+					<div class="tab_contents" id="experience">
+						<ul>
+							<li><span>5/2023-6/2032</span><br>Automation Intern at Apex Automation & Control</li>
+						</ul>
+					</div>
+					<div class="tab_contents" id="education">
+						<ul>
+							<li><span>2020-2024</span><br>B-Tech in Electrical Engineering from Netaji Subhas University of Technology</li>
+							<li><span>2018-2020</span><br>PCM from Kamal Public School</li>
+							<li><span>2017-2018</span><br>class X from Kamal Public School</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- 							services							 -->
+
+
+
+
+
+	<div id="services">
+		<div class="cantainer">
+			<h1 class="sub_title">My Services</h1>
+			<div class="services_list">
+				<div>
+					<i class="fa-solid fa-code"></i>
+					<h2>Frontend Developer</h2>
+					<p>Designed my own portfolio Website and a Google chrome extensions which is helpful for people who finds sales lead on their everyday Job.</p>
+					<a href="#">Learn more</a>
+				</div>
+				<div>
+					<i class="fa-solid fa-crop"></i>
+					<h2>UI/UX design</h2>
+					<p>Designed some of the best UI/UX cards for different products.</p>
+					<a href="#">Learn more</a>
+				</div>
+				<div>
+					<i class="fa-brands fa-app-store-ios"></i>
+					<h2>App Developer</h2>
+					<p>Designed some great Android Apps, Seven minute workout App.</p>
+					<a href="#">Learn more</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- 						portfolio						 -->
+
+
+
+
+	<div id="portfolio">
+		<div class="cantainer">
+			<h1 class="sub_title">My Work</h1>
+			<div class="work_list">
+				<div class="work">
+					<img src="work-1.png">
+					<div class="layer">
+						<h3>Seven minute Workout App</h3>
+						<p>Designed a seven minute android workout app which contains the different exercises and embedded with the BMI calculator and History of the workouts you have done in the past.</p>
+						<a target="_blank" href="https://drive.google.com/file/d/1fkn1R_9ZKTwpHcb2O3jgE5mFuTTmo0Dz/view"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+					</div>
+				</div>
+				<div class="work">
+					<img src="work-2.png">
+					<div class="layer">
+						<h3>Sales Lead Saver Extension</h3>
+						<p>Google chrome extensions which is helpful for people who finds sales lead on their everyday Job.</p>
+						<a target="_blank" href="https://shubhamgaur01.github.io/sales_lead_saver_extension/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+					</div>
+				</div>
+				<div class="work">
+					<img src="work-3.png">
+					<div class="layer">
+						<h3>My Portfolio</h3>
+						<p>Created a fully responsive Personal portfolio using Html, CSS, JavaScript, with a very good frontend design .</p>
+						<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+					</div>
+				</div>
+			</div>
+			<a href="#" class="btn">See More</a>
+		</div>
+	</div>
+
+
+
+	<!-- 							Contact Me 							-->
+
+	<div id="contact">
+		<div class="cantainer">
+			<div class="row">
+				<div class="contact_left">
+					<h1>Contact Me</h1>
+					<p><i class="fa-solid fa-envelope"></i>officialshubhamgaur@gmail.com</p>
+					<p><i class="fa-solid fa-phone"></i>+91-8810530876</p>
+					<div class="social_icons">
+						<a target="_blank" href="https://www.linkedin.com/in/shubham-gaur-46b450215/"><i class="fa-brands fa-linkedin"></i></a>
+						<a target="_blank" href="https://x.com/SHUBHAM_GAUR113"><i class="fa-brands fa-square-x-twitter"></i></a>
+						<a target="_blank" href="https://www.instagram.com/thisisshubhamgaur/"><i class="fa-brands fa-square-instagram"></i></a>
+						<a target="_blank" href="https://www.facebook.com/login/"><i class="fa-brands fa-square-facebook"></i></a>
+					</div>
+					<a href="my-cv.pdf" target="_blank" class="btn btn2">Download CV</a>
+				</div>
+				<div class="contact_right">
+					<!-- remember here we have used 3rd party services 
+					which sends data to your email third party service name
+					'formssprees' -->
+					<form action="https://formspree.io/f/xzbnlvep" method="POST">
+						<input id="nameid" type="text" name="name" placeholder="Your Name" required>
+						<input id="emailid" type="email" name="email" placeholder="Your Email" required>
+						<textarea id="textid" name="message" rows="6" placeholder="Your Message" required></textarea>
+						<button class="btn btn2" onclick="eraseall()">SUBMIT</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+			<p>Made with <i class="fa-solid fa-heart heart"></i> by <a href="https://www.linkedin.com/in/shubham-gaur-46b450215/">SHUBHAM GAUR</a></p>
+		</div>
+	</div>
+
+
+
+	<script src="index.js" type="text/javascript"></script>
+</body>
+</html>
